@@ -46,5 +46,7 @@ class TicTacToe
     counter = 0 
     @board.each do |el|
     counter += 1 if el != " "
-end
+    end
+  end
+  
 end
