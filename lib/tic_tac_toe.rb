@@ -52,6 +52,7 @@ class TicTacToe
   
   def current_player
     turn_count.even? ? "X" : "O"
+    input.gets.chomp
   end
   
   def turn 
