@@ -94,7 +94,7 @@ class TicTacToe
   end
   
   def winner
-    won?
+    won? ? @board[won?[0]] :
   end
   
   def play 
