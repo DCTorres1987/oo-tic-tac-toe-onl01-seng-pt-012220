@@ -82,9 +82,19 @@ class TicTacToe
     
   
   def full?
+    turn_count == 9
   end
   
   def draw?
+  end
+  
+  def over?
+  end
+  
+  def winner 
+  end
+  
+  def play 
   end
   
 end
