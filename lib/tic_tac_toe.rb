@@ -69,18 +69,17 @@ class TicTacToe
     winner = nil 
     
     WIN_COMBINATIONS.each do |combo|
-    if combo.all? {|win| @board[win] == "X"}
+     if combo.all? {|win| @board[win] == "X"}
       winner = combo
-    elsif combo.all? {|win| @board[win] == "O"}
+     elsif combo.all? {|win| @board[win] == "O"}
       winner = combo
-    else 
+     else 
       winner
-    end  
-    end  
-      winner
+     end
+    end
+    winner
    end
     
-  end
   
   def full?
   end
