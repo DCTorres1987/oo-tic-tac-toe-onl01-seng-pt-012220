@@ -35,5 +35,5 @@ class TicTacToe
   end
   
   def position_taken?(index)
-    @board[]
+    @board[index] =! " "
 end
