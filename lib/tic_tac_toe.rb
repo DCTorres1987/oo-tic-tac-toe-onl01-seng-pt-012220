@@ -55,5 +55,6 @@ class TicTacToe
   end
   
   def turn 
+    puts "Choose a number between "
   end
 end
