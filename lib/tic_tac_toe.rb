@@ -1,6 +1,6 @@
 require 'pry'
 
-class tictactoe
+class TicTacToe
   attr_reader :board
   
  WIN_COMBINATIONS = [
