@@ -51,7 +51,7 @@ class TicTacToe
   end
   
   def current_player
-    
+    counter.even?
   end
   
 end
